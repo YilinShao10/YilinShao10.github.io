@@ -1,39 +1,39 @@
 @import url(fontawesome-all.min.css);
 
 /*
-	Hyperspace by HTML5 UP
+	Hyperspace by HTML5 UP   Hyperspace由HTML5 UP
 	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)根据CCA 3.0许可，免费用于个人和商业用途（html5up.net/license）
 */
 
-html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
-pre, a, abbr, acronym, address, big, cite,
-code, del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var, b,
-u, i, center, dl, dt, dd, ol, ul, li, fieldset,
-form, label, legend, table, caption, tbody,
-tfoot, thead, tr, th, td, article, aside,
-canvas, details, embed, figure, figcaption,
-footer, header, hgroup, menu, nav, output, ruby,
-section, summary, time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
+html, body, div, span, applet, object,Html, body, div, span, applet, object，
+iframe, h1, h2, h3, h4, h5, h6, p, blockquote,Iframe, h1, h2, h3, h4, h5, h6, p, blockquote，
+pre, a, abbr, acronym, address, big, cite,Pre, a，缩写，缩写，address, big, cite，
+code, del, dfn, em, img, ins, kbd, q, s, samp,Code, del, dfn, em, img, ins, kbd, q, s, sample，
+small, strike, strong, sub, sup, tt, var, b,Small, strike, strong, sub, sup, tt, var, b，
+u, i, center, dl, dt, dd, ol, ul, li, fieldset,U, i, center, dl, dt, dd, ol, ul, li, fieldset，
+form, label, legend, table, caption, tbody,表单、标签、图例、表格、标题、正文、
+tfoot, thead, tr, th, td, article, aside,Tfoot, head, tr, th, td, article, aside，
+canvas, details, embed, figure, figcaption,画布，细节，嵌入，图形，图标题，
+footer, header, hgroup, menu, nav, output, ruby,页脚，页眉，hgroup，菜单，导航，输出，ruby，
+section, summary, time, mark, audio, video 章节、总结、时间、标记、音频、视频{{
+	   保证金:0;margin: 0;
+	   填充:0;padding: 0;
+	   边界:0;border: 0;
+	   字体大小:100%;font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align:基线;}vertical-align: baseline;}
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;}
+article, aside, details, figcaption, figure,文章、旁白、细节、图说、图、
+footer, header, hgroup, menu, nav, section 页脚，页眉，hgroup，菜单，导航，section {{
+	   显示:块;}display: block;}
 
-body {
-	line-height: 1;
+body    身体{{
+	   行高:1;line-height: 1;
 }
 
 ol, ul {
-	list-style: none;
+	   list-style:没有;list-style: none;
 }
 
 blockquote, q {
@@ -46,45 +46,45 @@ blockquote, q {
 		content: none;
 	}
 
-table {
-	border-collapse: collapse;
+table {   表{
+	border-collapse: collapse;border-collapse:崩溃;
 	border-spacing: 0;
 }
 
-body {
-	-webkit-text-size-adjust: none;
+body {   身体{
+	-webkit-text-size-adjust: none;-webkit-text-size-adjust:没有;
 }
 
-mark {
-	background-color: transparent;
-	color: inherit;
+mark {   马克{
+	background-color: transparent;背景颜色:透明;
+	color: inherit;   色:inherit   继承;
 }
 
-input::-moz-focus-inner {
-	border: 0;
-	padding: 0;
+input::-moz-focus-inner {   输入:-moz-focus-inner {
+	border: 0;   边界:0;
+	padding: 0;   填充:0;
 }
 
-input, select, textarea {
-	-moz-appearance: none;
-	-webkit-appearance: none;
-	-ms-appearance: none;
-	appearance: none;
+input, select, textarea {   输入，选择，textarea {
+	-moz-appearance: none;   -moz-appearance:没有;
+	-webkit-appearance: none;   -webkit-appearance:没有;
+	-ms-appearance: none;   -ms-appearance:没有;-ms-appearance:没有;-ms-appearance:；
+	appearance: none;   外观:没有;
 }
 
-/* Basic */
+/* Basic   基本   基本 */   /*基本*/
 
 	@-ms-viewport {
-		width: device-width;
+		width: device-width;   宽度:设备宽度;
 	}
 
-	body {
-		-ms-overflow-style: scrollbar;
+	body {   身体{
+		-ms-overflow-style: scrollbar;-ms-overflow-style:滚动条;
 	}
 
 	@media screen and (max-width: 480px) {
 
-		html, body {
+		html, body {   Html, body {
 			min-width: 320px;
 		}
 
@@ -95,54 +95,87 @@ input, select, textarea {
 	}
 
 	*, *:before, *:after {
-		box-sizing: inherit;
+		box-sizing: inherit;   box-sizing:继承;
 	}
 
-	body {
+	body {   身体{
 		background: #ffffff;
 	}
 
-		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
+		body.is-preload *, body.is-preload *:before, body.is-preload *:after {的身体。Is-preload *，主体。Is-preload *:before   之前, body。Is-preload *:after   后 {
+			-moz-animation: none !important;-moz-animation: none   没有一个 ！
+			-webkit-animation: none !important;-webkit-animation: none   没有一个 ！
+			-ms-animation: none !important;-ms-animation；
+			animation: none !important;动画：不重要；
+			-moz-transition: none !important;-moz-transition: none   没有一个 ！
+			-webkit-transition: none !important;-webkit-transition: none   没有一个 ！
+			-ms-transition: none !important;-ms-transition: none   没有一个 ！
+			transition: none !important;过渡：不重要；
 		}
 
-/* Type */
+		.intro-container {
+    display: flex; /* 让文字和图片并排 */
+    align-items: center; /* 垂直居中 */
+    justify-content: space-between; /* 左右分布 */
+    flex-wrap: wrap; /* 适应小屏幕 */
+}
 
-	body, input, select, textarea {
-		color: rgba(0, 0, 0, 0.55);
-		font-family: Roboto, Poppins, Arial, Helvetica, sans-serif;
-		font-size: 16.5pt;
-		font-weight: normal;
-		line-height: 1.75;
+.intro-text {
+    width: 50%; /* 让文字占据左半部分 */
+    max-width: 500px; /* 限制最大宽度 */
+}
+
+.intro-image {
+    width: 45%; /* 让图片占据右半部分 */
+    text-align: center;
+}
+
+.intro-image img {
+    max-width: 100%; /* 确保图片适应容器 */
+    border-radius: 10px; /* 可选：让图片边角更柔和 */
+}
+
+@media screen and (max-width: 768px) {
+    .intro-container {
+        flex-direction: column; /* 在小屏幕上变成上下布局 */
+        text-align: center;
+    }
+    .intro-text, .intro-image {
+        width: 100%; /* 宽度调整为100% */
+    }
+}
+
+
+/* Type */   /*输入*/
+
+	body, input, select, textarea {正文，输入，选择，文本区域{
+		color: rgba(0, 0, 0, 0.55);   Color   颜色: rgba(0,0,0,0.55)；
+		font-family: Roboto, Poppins, Arial, Helvetica, sans-serif;font-family: Roboto, Poppins, Arial, Helvetica, sans-serif；font-family: Roboto, Poppins, Arial, Helvetica, sans-seriffontfamily: Roboto, Poppins, Arial, Helvetica, sansserif; fontfamily: Roboto, Poppins   此外,, Arial   天线, Helvetica, sansserif; fontfamily: Roboto, Poppins, Arial, Helvetica, sansserif
+		font-size: 16.5pt;   字体大小:16.5分;
+		font-weight: normal;   粗细:正常;
+		line-height: 1.75;   行高:1.75;
 	}
 
 		@media screen and (max-width: 1680px) {
 
-			body, input, select, textarea {
-				font-size: 13pt;
+			body, input, select, textarea {正文，输入，选择，文本区域{
+				font-size: 13pt;   字体大小:13 pt;
 			}
 
 		}
 
 		@media screen and (max-width: 1280px) {
 
-			body, input, select, textarea {
-				font-size: 12pt;
+			body, input, select, textarea {正文，输入，选择，文本区域{
+				font-size: 12pt;   字体大小:12 pt;
 			}
 
 		}
 
 		@media screen and (max-width: 360px) {
 
-			body, input, select, textarea {
-				font-size: 11pt;
+			body, input, select, textarea {正文，输入，选择，文本区域{
+				font-size: 11pt;   字体大小:11分;
 			}
 
 		}
@@ -3825,7 +3858,7 @@ input, select, textarea {
 
 			#sidebar {
 				height: 3.5em;
-				left: 0;
+				left: 0;   左:0;
 				line-height: 3.5em;
 				overflow: hidden;
 				padding: 0;
@@ -3848,14 +3881,14 @@ input, select, textarea {
 				}
 
 				#sidebar nav {
-					height: inherit;
-					line-height: inherit;
+					height: inherit   继承;
+					line-height: inherit   继承;
 				}
 
 					#sidebar nav ul {
-						display: -moz-flex;
-						display: -webkit-flex;
-						display: -ms-flex;
+						display   显示: -moz-flex;
+						display: -webkit-flex;   显示:-webkit-flex;
+						display: -ms-flex;   显示:-ms-flex;
 						display: flex;
 						height: inherit;
 						line-height: inherit;
@@ -3863,7 +3896,7 @@ input, select, textarea {
 					}
 
 						#sidebar nav ul li {
-							display: block;
+							display   显示: block;
 							height: inherit;
 							line-height: inherit;
 							margin: 0 0 0 2em;
@@ -3871,9 +3904,9 @@ input, select, textarea {
 						}
 
 					#sidebar nav a {
-						height: inherit;
-						line-height: inherit;
-						padding: 0;
+						height: inherit   继承;
+						line-height: inherit   继承;
+						padding   填充: 0;
 					}
 
 						#sidebar nav a:after {
@@ -3883,32 +3916,32 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		@medi   我a   一个 screen and (max-width: 736px) {
 
-			#sidebar {
-				display: none;
+			#si   我debar {
+				di   我splay: none;   显示:没有;
 			}
 
 		}
 
-/* Intro */
+/* Intro   介绍 */
 
-	#intro {
-		background-attachment: fixed;
-		background-image: url("images/intro.svg");
-		background-position: top right;
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
+	#intro {   #介绍{
+		background-attachment: fi   我xed;background-attachment:固定;
+		background-i   我mage: url("i   我mages/intro   介绍   介绍.svg");背景图片:url(“图像/ intro.svg”);
+		background-posi   我tion: top right;Background-position：右上角；
+		background-repeat: no-repeat;平铺方式:不再重演;
+		background-size: 100% 100%;Background-size: 100% 100%；
 	}
 
 		#intro p {
-			font-size: 1.25em;
+			font-size: 1.25em;   字体大小:1.25 em;
 		}
 
 			@media screen and (max-width: 980px) {
 
 				#intro p br {
-					display: none;
+					display: none;   显示:没有;
 				}
 
 			}
@@ -3916,15 +3949,15 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				#intro p {
-					font-size: 1em;
+					font-size: 1em;   字体大小:1 em   在;
 				}
 
 			}
 
 		@media screen and (max-width: 1280px) {
 
-			#intro {
-				background-attachment: scroll;
+			#intro {   #介绍{
+				background-attachment: scroll;background-attachment:滚动;
 			}
 
 		}
